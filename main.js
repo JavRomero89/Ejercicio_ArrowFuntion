@@ -65,3 +65,9 @@ const arrayObj = [
 
   const hablaHispana = arrayObj.filter((name) => name.language==="Spanish")
   console.log(hablaHispana);
+
+  const hablaInglesa = arrayObj.filter((name) => name.language==="English")
+  console.log(hablaInglesa);
+
+  const united = arrayObj.filter((name) => name.name.includes("United"))
+  console.log(united);
